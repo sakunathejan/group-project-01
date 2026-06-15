@@ -48,6 +48,47 @@
         <p>Applications are accepted year-round, with priority placement for students who apply early. We encourage families to begin the process as soon as possible.</p>
     </section>
 
+    <!-- Application form section -->
+    <section id="application-form">
+        <h2>Apply Now</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="student-name">Student Name</label>
+                <input type="text" id="student-name" name="student-name" required>
+
+                <label for="student-age">Student Age</label>
+                <input type="number" id="student-age" name="student-age" min="3" max="18" required>
+
+                <label for="student-grade">Applying For Grade</label>
+                <input type="text" id="student-grade" name="student-grade" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Parent / Guardian Details</legend>
+                <label for="guardian-name">Parent / Guardian Name</label>
+                <input type="text" id="guardian-name" name="guardian-name" required>
+
+                <label for="guardian-email">Email Address</label>
+                <input type="email" id="guardian-email" name="guardian-email" required>
+
+                <label for="guardian-phone">Phone Number</label>
+                <input type="tel" id="guardian-phone" name="guardian-phone" required>
+
+                <label for="address">Home Address</label>
+                <input type="text" id="address" name="address">
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="comments">Comments or Questions</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </fieldset>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
     <!-- Contact section -->
     <section id="contact">
         <h2>Contact Admissions</h2>
